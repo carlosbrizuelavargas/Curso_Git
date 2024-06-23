@@ -1,0 +1,60 @@
+    1  history
+    2  clear
+    3  git config --global user.name 'Carlos Brizuela'
+    4  clear
+    5  exit
+    6  git config --global user name 'carlos brizuela'
+    7  git config --global user.name 'Carlos Brizuela'
+    8  pwd
+    9  pwd~
+   10  pwd ~
+   11  cd c/
+   12  cd desktop
+   13  cd desktop/
+   14  clear
+   15  ls -a
+   16  cd..
+   17  cd ..
+   18  rm -r comandos
+   19  ls
+   20  git config --global user.name 'Carlos Brizuela'
+   21  git config --global user.email 'carlosbrizuelavargas@gmail.com'
+   22  git config user.name
+   23  cd Desktop/
+   24  ls
+   25  cd curso TOTI
+   26  cd Curso TOTI/
+   27  cd 'Curso TOTI'
+   28  mkdir Curso_Git
+   29  ls
+   30  git config user.name
+   31  cd Curso_Git/
+   32  git config user.name
+   33  git init
+   34  git status
+   35  echo '#Aprendendo usar o Git' > readme.md
+   36  git status
+   37  git add readme.md
+   38  git status
+   39  git commit -m 'Commit inicial'
+   40  git status
+   41  echo '##Aula 1' >> readme.md
+   42  git status
+   43  echo 'Carlos Brizuela' > participantes.txt
+   44  git status
+   45  git add.
+   46  git add .]
+   47  git add .
+   48  git status
+   49  git restore --staged participantes.txt
+   50  git status
+   51  git add participantes.txt
+   52  git status
+   53  git restore --staged .
+   54  git status
+   55  git commit -am 'Alteração no readme'
+   56  git status
+   57  git add participantes.txt
+   58  git status
+   59  git commit -a 'Adicionado participantes.txt'
+   60  history > Aula_3.txt
