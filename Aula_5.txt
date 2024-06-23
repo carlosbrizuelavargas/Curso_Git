@@ -1,0 +1,40 @@
+    1  git log -p -2
+    2  git log -pretty=oneline -2
+    3  git log -2
+    4  clear
+    5  git branch
+    6  git checkout -b feature
+    7  git branch
+    8  touch Nova_feature
+    9  git status
+   10  git add Nova_feature
+   11  git commit -m 'Adicionando Nova_feature'
+   12  git log
+   13  git checkout master
+   14  git status
+   15  git log
+   16  touch Continuando_master
+   17  git add Continuando_master
+   18  git commit -m 'Adicionando Continuacao na master'
+   19  git log
+   20  git checkout feature
+   21  git log
+   22  git checkout -b feature2 master
+   23  git log
+   24  git branch -d feature2
+   25  git checkout master
+   26  git log
+   27  git branch -d feature2
+   28  git log
+   29  git checkout feature2
+   30  clear
+   31  git checkout feature
+   32  git log --pretty=oneline --graph
+   33  git merge master
+   34  git log
+   35  git log --pretty=oneline --graph
+   36  git reset --hard HEAD~
+   37  git log --pretty=oneline --graph
+   38  git rebase master
+   39  git log --pretty=oneline --graph
+   40  history > Aula_5.txt
